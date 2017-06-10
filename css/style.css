@@ -1,14 +1,408 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Poppins:400,500,700|Sacramento');
 
-
+/*HEADER STYLE*/
 .container{
-	width: 200px;
-	height: 200px;
-	background-color:red;
+	width: 1200px;
+	padding:0 30px;
+	margin:0 auto;
+	box-sizing: border-box;
 }
-p{
+#logo_block ul{
+	display: flex;
+	flex-direction: row;
 	font-family: 'Poppins';
+	font-size: 14px;
+	font-weight: 500;
 }
-h1{
-	color:blue;
+#logo_block img{
+	float:left;
+	margin:24px 0;
+}
+#logo_block nav{
+	float:right;
+	margin-top:30px;
+}
+#logo_block li{
+	padding-left:21px;
+	padding-bottom:30px;
+}
+#logo_block li:hover{
+	border-bottom:1px solid #b1afae;
+	cursor:pointer;
+}
+
+
+/*HEAD BLOCK*/
+.title{
+	
+	height: 773px;
+	background-image: url('../img/logo_bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	position: relative;
+
+}
+.title_over{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .6);
+}
+#head_block{
+	text-align: center;
+	padding: 0 158px;
+}
+#head_block h1{
+	font-size: 60px;
+	font-family: 'Libre Baskerville', serif;
+	color:#ffffff;
+	margin-top: 162px;
+	line-height: 84px;
+}
+#head_block button{
+	width: 180px;
+	height: 50px;
+	border-radius: 25px;
+	font-size: 16px;
+	font-family: "Poppins";
+	background-color: rgb(252, 95, 69);
+	text-transform: uppercase;
+	font-weight: 600;
+	color:#ffffff;
+	border:0;
+	margin-top: 45px;
+}
+#head_block button:hover{
+	background-color: rgba(148, 127, 124, 0.59);
+}
+.feature{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	margin-top: 83px;
+}
+.feature_pr {
+	color: #38c695;
+}
+.feature_time{
+	color: #b27cf5;
+}
+.feature_sat{
+	color: #feb960;
+}
+.feature p{
+	font-family: 'Poppins';
+	font-size: 18px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.feature_logo{
+	width: 40px;
+	height: 40px;
+	margin:0 auto;
+	margin-bottom: 38px;
+}
+.feature_pr .feature_logo{
+	background-image: url("../img/header1.png");
+	text-align: center;
+}
+.feature_time .feature_logo{
+	background-image: url("../img/header2.png");
+}
+.feature_sat .feature_logo{
+	background-image: url("../img/header3.png");
+}
+
+/*ABOUT BLOCK*/
+#about{
+	margin-top: 149px;
+	margin-bottom:151px;
+	position: relative;
+}
+
+.about_text{
+	width: 652px;
+	position: absolute;
+	top:80px;
+	right: 0;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+	background-color: #ffffff;
+	background-image: url(../img/01.png), url('../img/lines.png');
+	background-repeat: no-repeat;
+	background-position-y: 5px , 100%;
+	background-position-x: 6px,  0%;
+	padding:89px 83px 75px 83px;
+	box-sizing: border-box;
+}
+.about_text h1{
+	font-size: 50px;
+	font-family: 'Libre Baskerville', serif;
+	color: rgb(49, 49, 49);
+	font-weight: 700;
+	margin-bottom:33px;
+	box-sizing: border-box;
+	line-height: 54px;
+}
+.about_text p{
+	font-size: 15px;
+	font-family: 'Poppins';
+	color: rgb(97, 97, 97);
+	line-height: 27px;
+	margin-bottom: 27px;
+}
+
+.about_img{
+	background-image: url('../img/about_img.jpg');
+	width: 555px;
+	height: 700px;
+	border: 10px solid rgba(0, 0, 0, 0.2);
+	box-sizing: border-box;
+}
+/*SERVICES BLOCK*/
+.service_bg{
+	background-color: rgb(247, 247, 247);
+}
+#services{
+	text-align: center;
+	padding-top: 142px;
+	box-sizing: border-box;
+	background-image: url(../img/02.png);
+	background-repeat: no-repeat;
+	background-position-y: 6px;
+	background-position-x: center;
+}
+#services h1{
+	font-size: 50px;
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 700;
+	color: rgb(49, 49, 49);
+	line-height: 60px;
+}
+#services p{
+	font-size: 18px;
+	font-family: "Poppins";
+	color: rgb(97, 97, 97);
+	font-weight: 400;
+	margin-top: 29px;
+	margin-bottom: 79px;
+	line-height: 18px;
+}
+
+.services_blocks{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+}
+.serv{
+	text-align: center;
+	width: 263px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+	background-color: #ffffff;
+	margin-bottom: 149px;
+}
+.serv_Logo{
+	margin: 0 auto;
+}
+.serv_title{
+	font-size: 20px;
+	font-family: "Poppins";
+	color: rgb(49, 49, 49);
+	font-weight: 500;
+	margin-bottom: 32px;
+}
+.serv_text{
+	font-size: 15px;
+	font-family: "Poppins";
+	color: rgb(97, 97, 97);
+	line-height: 1.667;
+	padding: 0 32px;
+	margin-bottom: 58px;
+}
+.services_web_logo{
+	width: 55px;
+	height: 39px;
+	background-image: url("../img/focus-img1.png");
+	margin-top: 67px;
+	margin-bottom: 33px;
+}
+.services_ux_logo{
+	width: 55px;
+	height: 49px;
+	background-image: url("../img/focus-img2.png");
+	margin-top:61px;
+	margin-bottom: 28px;
+}
+.services_photo_logo{
+	width: 55px;
+	height: 43px;
+	background-image: url("../img/focus-img3.png");
+	margin-top: 64px;
+	margin-bottom: 32px;
+}
+.services_app_logo{
+	width: 44px;
+	height: 40px;
+	background-image: url("../img/focus-img4.png");
+	margin-top:66px;
+	margin-bottom: 33px;
+}
+.services_block_web{
+	background-image: url('../img/line.png');
+	background-repeat:  repeat-x;
+	background-position-y: 100%;
+	background-position-x: 0%;
+}
+.services_block_ux{
+	background-image: url('../img/line copy.png');
+	background-repeat:  repeat-x;
+	background-position-y: 100%;
+	background-position-x: 0%;
+}
+.services_block_photo{
+	background-image: url('../img/line copy 2.png');
+	background-repeat:  repeat-x;
+	background-position-y: 100%;
+	background-position-x: 0%;
+}
+.services_block_app{
+	background-image: url('../img/line copy 3.png');
+	background-repeat:  repeat-x;
+	background-position-y: 100%;
+	background-position-x: 0%;
+}
+
+/*VIDEO BLOCK*/
+.video_bg{
+	background-image: url('../img/background image.png');
+	background-repeat: no-repeat;
+	width: 1920px;
+	height: 500px;
+}
+#video_block{
+	text-align: center;
+	padding:148px 0 151px 0;
+	box-sizing: border-box;
+}
+#video_block h2{
+	color: #ffffff;
+	font-family: Poppins;
+	font-size: 30px;
+}
+#video_block p{
+	color: #ffffff;
+	font-family: Poppins;
+	font-size: 15px;
+}
+.video_play{
+	background-image: url('../img/video.png');
+	background-repeat: no-repeat;
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+	margin-bottom: 41px;
+	margin-top: 33px;
+}
+/*PORTFOLIO BLOCK*/
+#portfolio{
+	padding:140px 0 149px 0;
+	text-align: center;
+	box-sizing: border-box;
+	background-image: url(../img/03.png);
+	background-repeat: no-repeat;
+	background-position-y: 3px;
+	background-position-x: center;
+}
+#portfolio h1{
+	font-size: 50px;
+  font-family: 'Libre Baskerville', serif;
+	font-weight: 700;
+	color: rgb(49, 49, 49);
+	line-height: 60px;
+}
+#portfolio p{
+	font-size: 18px;
+  font-family: "Poppins";
+  color: rgb(97, 97, 97);  
+  margin-top: 27px;
+}
+.portf_img{
+	width: 360px;
+	height: 288px;
+	background-repeat: no-repeat;
+	margin-bottom: 24px;
+	position: relative;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+.portf_img:before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(2, 2, 2, 0.25);
+  background-image: url('../img/lines.png'), url('../img/lines.png');
+	background-repeat: no-repeat;
+	background-position-y: 100%,99.4%;
+	background-position-x: 0%;
+	background-size: contain;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .9s ease;
+}
+.portf_img:hover:before {
+ height: 77.8%;
+ bottom:22.8%;
+}
+.portfolio_container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-around;
+	margin-top: 80px;
+}
+.text { 
+  width: 360px;
+	height: 22.8%;
+	background-color: #ffffff;
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 500;
+  position: absolute;
+  bottom:0;
+  padding-top: 27px;
+  display:none;
+  box-sizing: border-box;
+}
+.portf_img:hover .text{
+	display: block;
+}
+.portfolio_1{
+	background-image: url('../img/portfolio11.png');
+}
+.portfolio_2{
+	background-image: url('../img/portfolio12.png');
+}
+.portfolio_3{
+	background-image: url('../img/portfolio13.png');
+}
+.portfolio_4{
+	background-image: url('../img/portfolio21.png');
+}
+	.portfolio_5{
+	background-image: url('../img/portfolio22.png');
+}
+.portfolio_6{
+	background-image: url('../img/portfolio23.png');
+}
+.portfolio_7{
+	background-image: url('../img/portfolio31.png');
+}
+.portfolio_8{
+	background-image: url('../img/portfolio32.png');
+}
+.portfolio_9{
+	background-image: url('../img/portfolio33.png');
 }
