@@ -145,6 +145,7 @@
 	margin-bottom:33px;
 	box-sizing: border-box;
 	line-height: 54px;
+	letter-spacing: 1px;
 }
 .about_text p{
 	font-size: 15px;
@@ -180,6 +181,7 @@
 	font-weight: 700;
 	color: rgb(49, 49, 49);
 	line-height: 60px;
+	letter-spacing: 1px;
 }
 #services p{
 	font-size: 18px;
@@ -211,7 +213,7 @@
 	font-family: "Poppins";
 	color: rgb(49, 49, 49);
 	font-weight: 500;
-	margin-bottom: 32px;
+	margin-bottom: 28px;
 }
 .serv_text{
 	font-size: 15px;
@@ -219,7 +221,7 @@
 	color: rgb(97, 97, 97);
 	line-height: 1.667;
 	padding: 0 32px;
-	margin-bottom: 58px;
+	margin-bottom: 62px;
 }
 .services_web_logo{
 	width: 55px;
@@ -231,7 +233,6 @@
 .services_ux_logo{
 	width: 55px;
 	height: 49px;
-	background-image: url("../img/focus-img2.png");
 	margin-top:61px;
 	margin-bottom: 28px;
 }
@@ -321,6 +322,7 @@
 	font-weight: 700;
 	color: rgb(49, 49, 49);
 	line-height: 60px;
+	letter-spacing: 1px;
 }
 #portfolio p{
 	font-size: 18px;
@@ -423,6 +425,8 @@
 #team h1{
 	 font-size: 50px;
    font-family: 'Libre Baskerville', serif;
+   font-weight: 700;
+   letter-spacing: 1px;
 }
 #team p{
 	font-size: 18px;
@@ -703,6 +707,8 @@
 #work_steps h1{
 	 font-size: 50px;
    font-family: 'Libre Baskerville', serif;
+   font-weight: 700;
+   letter-spacing: 1px;
 }
 #work_steps p{
 	font-size: 18px;
@@ -775,3 +781,136 @@
 	line-height: 27px;
 	margin:0;
 }
+
+/*PRICING TABLE*/
+.pricing_bg{
+	background-color: #f7f7f7;
+}
+#pricing{
+	text-align: center;
+	padding: 142px 0 150px 0;
+	box-sizing: border-box;
+	background-image: url(../img/06.png);
+	background-repeat: no-repeat;
+	background-position-y: 4px;
+	background-position-x: center;
+}
+#pricing h1{
+	 font-size: 50px;
+   font-family: 'Libre Baskerville', serif;
+   font-weight: 700;
+   letter-spacing: 1px;
+}
+#pricing h5{
+	font-size: 18px;
+  font-family: "Poppins";
+  color: rgb(97, 97, 97);
+  margin-top: 35px;
+}
+.pricing_table{
+	display:flex;
+	flex-direction: row;
+	justify-content:space-between;
+	margin-top: 77px;
+	font-family: "Poppins";
+	text-align: center;
+}
+.pricing_col{
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+	background-color: #ffffff;
+	padding:38px 80px 37px 82px;
+	width: 360px;
+	box-sizing: border-box;
+	background-repeat: repeat-x;
+	background-position-x: 0;
+	background-position-y: 0;  
+}
+.price1{
+	background-image: url('../img/line copy.png');
+}
+.price2{
+	background-image: url('../img/line.png');
+}
+.price3{
+	background-image: url('../img/line copy 2.png');
+}
+
+.pricing_col p span{
+	font-weight: 500;
+}
+.pricing_table h4{
+	color: #313131;
+	font-size: 20px;
+}
+#pr_icon{
+	width: 114px;
+	height: 114px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+#pricing #pr_icon p{
+	color: #ffffff;
+	font-size: 25px;
+	padding: 38px 20px 0 20px;
+	line-height: 22px;
+}
+#pricing #pr_icon p span{
+	font-size: 13px;
+	font-weight: normal;
+}
+.pricing_icon1{
+	background-image: url(../img/bgGreen.png);
+}
+.pricing_icon2{
+	background-image: url(../img/bgred.png);
+}
+.pricing_icon3{
+	background-image: url(../img/bgP.png);
+}
+
+#pricing .pricing_table p{
+	font-size: 15px;
+  font-family: "Poppins";
+ 	color: rgb(39, 39, 39);
+ 	line-height: 40px;
+ 	margin-top: 26px;
+}
+#pricing button{
+	font-size: 15px;
+  width: 180px;
+	height: 50px;
+	border-radius: 25px;
+	margin-top: 10px;
+	    text-transform: uppercase;
+}
+.pricingBut_1{
+	border: 2px solid #38c695;
+  color: #38c695;
+  background-color: #ffffff;
+}
+.pricingBut_1:hover{
+	background-color: #38c695;
+	color: #ffffff;
+	cursor: pointer;
+}
+.pricingBut_2{
+	border: 2px solid #fc5f45;
+	color: #fc5f45;
+	background-color: #ffffff;
+}
+.pricingBut_2:hover{
+	background-color: #fc5f45;
+	color: #ffffff;
+	cursor: pointer;
+}
+.pricingBut_3{
+	border: 2px solid #b27cf5;
+	color: #b27cf5;
+	background-color: #ffffff;
+}
+.pricingBut_3:hover{
+	background-color: #b27cf5;
+	color: #ffffff;
+	cursor: pointer;
+}
+
