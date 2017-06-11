@@ -318,7 +318,7 @@
 }
 #portfolio h1{
 	font-size: 50px;
-  font-family: 'Libre Baskerville', serif;
+	font-family: 'Libre Baskerville', serif;
 	font-weight: 700;
 	color: rgb(49, 49, 49);
 	line-height: 60px;
@@ -326,9 +326,9 @@
 }
 #portfolio p{
 	font-size: 18px;
-  font-family: "Poppins";
-  color: rgb(97, 97, 97);  
-  margin-top: 27px;
+	font-family: "Poppins";
+	color: rgb(97, 97, 97);  
+	margin-top: 27px;
 }
 .portf_img{
 	width: 360px;
@@ -339,25 +339,25 @@
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
 }
 .portf_img:before {
-  content: "";
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  right: 0;
-  background-color: rgba(2, 2, 2, 0.25);
-  background-image: url('../img/lines.png'), url('../img/lines.png');
+	content: "";
+	position: absolute;
+	bottom: 100%;
+	left: 0;
+	right: 0;
+	background-color: rgba(2, 2, 2, 0.25);
+	background-image: url('../img/lines.png'), url('../img/lines.png');
 	background-repeat: no-repeat;
 	background-position-y: 100%,99.4%;
 	background-position-x: 0%;
 	background-size: contain;
-  overflow: hidden;
-  width: 100%;
-  height:0;
-  transition: .9s ease;
+	overflow: hidden;
+	width: 100%;
+	height:0;
+	transition: .9s ease;
 }
 .portf_img:hover:before {
- height: 77.8%;
- bottom:22.8%;
+	height: 77.8%;
+	bottom:22.8%;
 }
 .portfolio_container{
 	display: flex;
@@ -366,17 +366,17 @@
 	margin-top: 80px;
 }
 .text { 
-  width: 360px;
+	width: 360px;
 	height: 22.8%;
 	background-color: #ffffff;
-  font-size: 18px;
-  font-family: Poppins;
-  font-weight: 500;
-  position: absolute;
-  bottom:0;
-  padding-top: 27px;
-  display:none;
-  box-sizing: border-box;
+	font-size: 18px;
+	font-family: Poppins;
+	font-weight: 500;
+	position: absolute;
+	bottom:0;
+	padding-top: 27px;
+	display:none;
+	box-sizing: border-box;
 }
 .portf_img:hover .text{
 	display: block;
@@ -393,7 +393,7 @@
 .portfolio_4{
 	background-image: url('../img/portfolio21.png');
 }
-	.portfolio_5{
+.portfolio_5{
 	background-image: url('../img/portfolio22.png');
 }
 .portfolio_6{
@@ -423,16 +423,16 @@
 	background-position-x: center;
 }
 #team h1{
-	 font-size: 50px;
-   font-family: 'Libre Baskerville', serif;
-   font-weight: 700;
-   letter-spacing: 1px;
+	font-size: 50px;
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 700;
+	letter-spacing: 1px;
 }
 #team p{
 	font-size: 18px;
-  font-family: "Poppins";
-  color: rgb(97, 97, 97);
-  margin-top: 32px;
+	font-family: "Poppins";
+	color: rgb(97, 97, 97);
+	margin-top: 32px;
 }
 .team_blocks{
 	display:flex;
@@ -487,7 +487,7 @@
 }
 .team1,.team2,.team3,.team4{
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
-  background-color: #ffffff;
+	background-color: #ffffff;
 	background-repeat: repeat-x;
 	background-position-y: 100%;
 	background-position-x: 0%;
@@ -515,14 +515,14 @@
 }
 .team_about:before{
 	content: " ";
-    width: 45px;
-    height: 45px;
-    background: #fff;
-    transform: rotate(45deg);
-    position: absolute;
-    top: -25px;
-    left: 104px;
-    box-shadow: -4px -4px 6px -7px rgba(0, 0, 0, 0.5);
+	width: 45px;
+	height: 45px;
+	background: #fff;
+	transform: rotate(45deg);
+	position: absolute;
+	top: -25px;
+	left: 104px;
+	box-shadow: -4px -4px 6px -7px rgba(0, 0, 0, 0.5);
 
 }
 .team_left{
@@ -533,17 +533,17 @@
 }
 .team_about h3{
 	font-size: 20px;
-  font-family: "Poppins";
-  color: rgb(39, 39, 39);
-  font-weight: 500;
-  margin-bottom: 22px;
+	font-family: "Poppins";
+	color: rgb(39, 39, 39);
+	font-weight: 500;
+	margin-bottom: 22px;
 }
 
 #team .team_about p{
 	font-size: 15px;
-  font-family: "Poppins";
-  line-height: 27px;
-  margin:0;
+	font-family: "Poppins";
+	line-height: 27px;
+	margin:0;
 }
 
 .team_connect_logo{
@@ -555,9 +555,9 @@
 	position: relative;
 }
 .team_right{
-	 padding: 81px 10px 90px 0;
-	 display: flex;
-	 flex-wrap: wrap;
+	padding: 81px 10px 90px 0;
+	display: flex;
+	flex-wrap: wrap;
 }
 .team_links{
 	margin-top: 59px;
@@ -565,20 +565,20 @@
 	margin-left: 30px;
 }
 .team_connect_logo:after{
-  bottom: -59px;
-  position: absolute;
-  content: " ";
-  width: 2px;
- 	background-color: #f7f7f7;
-  left: 71px;
-  height: 151px;
+	bottom: -59px;
+	position: absolute;
+	content: " ";
+	width: 2px;
+	background-color: #f7f7f7;
+	left: 71px;
+	height: 151px;
 }
 .team_links li a{
 	font-size: 15px;
-  font-family: "Poppins";
-  color: rgb(97, 97, 97);
-  line-height: 1.2;
-  text-decoration: none;
+	font-family: "Poppins";
+	color: rgb(97, 97, 97);
+	line-height: 1.2;
+	text-decoration: none;
 }
 .team_links li{
 	position: relative;
@@ -589,8 +589,8 @@
 	width: 20px;
 	height: 20px;
 	background-repeat: no-repeat;
-  left: -4px;
-  position: absolute;
+	left: -4px;
+	position: absolute;
 }
 #fb:before{
 	background-image: url('../img/f.png');
@@ -652,18 +652,18 @@
 }
 .stats_t{
 	font-size: 20px;
-  font-family: "Poppins";
- 	color: rgb(254, 254, 254);
- 	margin-top: 29px;
+	font-family: "Poppins";
+	color: rgb(254, 254, 254);
+	margin-top: 29px;
 }
 .statistic4 .stats_t{
-	 padding-right: 12px;
+	padding-right: 12px;
 }
 .stats_text{
 	font-size: 15px;
-  font-family: "Poppins";
-  color: rgba(254, 254, 254, 0.702);
-  margin-top: 26px;
+	font-family: "Poppins";
+	color: rgba(254, 254, 254, 0.702);
+	margin-top: 26px;
 }
 .stats_icon{
 	background-repeat:no-repeat;
@@ -683,7 +683,7 @@
 }
 .statistic4_icon{
 	background-image: url('../img/stats4+.png');
-	    padding-right: 12px;
+	padding-right: 12px;
 }
 
 /*WORK STEPS BLOCK*/
@@ -705,16 +705,16 @@
 	margin-top: 132px;
 }
 #work_steps h1{
-	 font-size: 50px;
-   font-family: 'Libre Baskerville', serif;
-   font-weight: 700;
-   letter-spacing: 1px;
+	font-size: 50px;
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 700;
+	letter-spacing: 1px;
 }
 #work_steps p{
 	font-size: 18px;
-  font-family: "Poppins";
-  color: rgb(97, 97, 97);
-  margin-top: 28px;
+	font-family: "Poppins";
+	color: rgb(97, 97, 97);
+	margin-top: 28px;
 }
 .steps_pict{
 	background-repeat:no-repeat;
@@ -749,24 +749,24 @@
 .work_steps_descp1{
 	background-image: url('../img/line1.png'), url('../img/line.png');
 	left: 0;
-  top: 324px;
-  padding-top: 70px;
-  padding-bottom: 48px;
+	top: 324px;
+	padding-top: 70px;
+	padding-bottom: 48px;
 }
 .work_steps_descp2{
 	background-image: url('../img/line2.png'), url('../img/line copy.png');
 	right: 0;
-  top: 623px;
+	top: 623px;
 }
 .work_steps_descp3{
 	background-image: url('../img/line3.png'), url('../img/line copy 2.png');
 	left: 0;
-  top: 923px;
+	top: 923px;
 }
 .work_steps_descp4{
 	background-image: url('../img/line4.png'), url('../img/line copy 3.png');
 	bottom: 200px;
-  right: 0
+	right: 0
 }
 #work_steps .steps_descp h2{
 	font-family: 'Poppins';
@@ -796,16 +796,16 @@
 	background-position-x: center;
 }
 #pricing h1{
-	 font-size: 50px;
-   font-family: 'Libre Baskerville', serif;
-   font-weight: 700;
-   letter-spacing: 1px;
+	font-size: 50px;
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 700;
+	letter-spacing: 1px;
 }
 #pricing h5{
 	font-size: 18px;
-  font-family: "Poppins";
-  color: rgb(97, 97, 97);
-  margin-top: 35px;
+	font-family: "Poppins";
+	color: rgb(97, 97, 97);
+	margin-top: 35px;
 }
 .pricing_table{
 	display:flex;
@@ -870,23 +870,23 @@
 
 #pricing .pricing_table p{
 	font-size: 15px;
-  font-family: "Poppins";
- 	color: rgb(39, 39, 39);
- 	line-height: 40px;
- 	margin-top: 26px;
+	font-family: "Poppins";
+	color: rgb(39, 39, 39);
+	line-height: 40px;
+	margin-top: 26px;
 }
 #pricing button{
 	font-size: 15px;
-  width: 180px;
+	width: 180px;
 	height: 50px;
 	border-radius: 25px;
 	margin-top: 10px;
-	    text-transform: uppercase;
+	text-transform: uppercase;
 }
 .pricingBut_1{
 	border: 2px solid #38c695;
-  color: #38c695;
-  background-color: #ffffff;
+	color: #38c695;
+	background-color: #ffffff;
 }
 .pricingBut_1:hover{
 	background-color: #38c695;
@@ -914,3 +914,95 @@
 	cursor: pointer;
 }
 
+/*TESTIMONIALS BLOCK*/
+.testimonials_bg{
+	background-image: url(../img/office.png);
+	width: 1920px;
+	height: 874px;
+	background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+}
+.testimonials_bg_over{
+	position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .7);
+}
+#testimonials h1{
+	font-size: 50px;
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+	color: #ffffff;
+  line-height: 1.8;
+}
+#testimonials p{
+	font-size: 18px;
+	font-family: "Poppins";
+	color: #ffffff;
+	margin-top: 12px;
+}
+#testimonials{
+	text-align: center;
+	padding: 125px 0 150px 0;
+	box-sizing: border-box;
+	background-image: url(../img/07.png);
+	background-repeat: no-repeat;
+	background-position-y: 6px;
+	background-position-x: center;
+}
+#testimonials_blocks{
+	position: relative;
+	margin-top: 123px;
+}
+#testimonials_text{
+	width: 700px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+	background-color: #ffffff;
+	background-image: url(../img/”.png),url(../img/line.png);
+	background-repeat: no-repeat, repeat-x;
+	background-position-x:17px,0; 
+	background-position-y:0, 100%; 
+	text-align: left;
+	padding: 23px 0px 38px 56px;
+	margin-left: 383px;
+}
+#testimonials_text p{
+	font-size: 15px;
+  font-family: "Poppins";
+  color: rgb(97, 97, 97);
+  line-height: 1.8;
+  padding-right: 48px;
+}
+#testimonials_text h3{
+	font-size: 40px;
+  font-family: "Sacramento";
+  color: rgb(39, 39, 39);
+  margin-top: 38px;
+}
+#testimonials_text h4{
+	 font-size: 18px;
+   font-family: "Poppins";
+   color: rgb(39, 39, 39);
+   margin-top: 11px;
+}
+#testimonials_text h5{
+	font-size: 13px;
+  font-family: "Poppins";
+  color: rgb(252, 95, 69);
+  margin-top: 10px;
+}
+.testimonials_img{
+	background-image: url(../img/melina.png);
+	width: 384px;
+	height: 399px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+	border: 10px solid rgba(0, 0, 0, 0.2);
+	position: absolute;
+	top: -44px;
+	box-sizing: border-box;
+}
