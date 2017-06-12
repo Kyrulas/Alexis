@@ -23,12 +23,16 @@
 	margin-top:30px;
 }
 #logo_block li{
-	padding-left:21px;
 	padding-bottom:20px;
 }
 #logo_block li:hover{
 	border-bottom:1px solid #b1afae;
 	cursor:pointer;
+}
+#logo_block a{
+	text-decoration: none;
+	color: #272727;
+	padding-left:21px;
 }
 
 
@@ -81,14 +85,15 @@
 .feature{
 	display: flex;
 	flex-direction: row;
-	justify-content:space-around;
 	margin-top: 83px;
 }
 .feature_pr {
 	color: #38c695;
+	padding: 0 39px;
 }
 .feature_time{
 	color: #b27cf5;
+	padding: 0 60px;
 }
 .feature_sat{
 	color: #feb960;
@@ -115,6 +120,7 @@
 .feature_sat .feature_logo{
 	background-image: url("../img/header3.png");
 }
+
 
 /*ABOUT BLOCK*/
 #about{
@@ -621,16 +627,22 @@
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
-	justify-content:space-around;
 	padding: 143px 0 127px 0;
 }
 .stats_bl{
 	text-align: center;
+	padding: 0 80px;
 }
 .stats_logo{
 	width: 50px;
 	height: 50px;
 	margin: 0 auto;
+}
+.statistic3{
+	padding: 0 84px;
+}
+.statistic4{
+	padding: 0 68px;
 }
 
 .statistic1_logo{
@@ -1249,7 +1261,7 @@
 
 /*SUBSCRIBE BLOCK*/
 #subscribe{
-	padding: 149px 0 ;
+	padding: 148px 0 ;
 	text-align: center;
 	font-family: "Poppins";
 }
@@ -1299,7 +1311,7 @@ footer{
 }
 #touch{
 	text-align: center;
-	padding: 126px 0 150px 0;
+	padding-top: 127px;
 	box-sizing: border-box;
 	background-image: url('../img/10.png');
 	background-repeat: no-repeat;
@@ -1357,7 +1369,7 @@ textarea{
 }
 #touch input[type="submit"]{
 	  font-size: 16px;
-    width: 180px;
+    width: 190px;
     height: 50px;
     border-radius: 25px;
     margin-top: 10px;
@@ -1382,7 +1394,7 @@ textarea{
 	justify-content: space-around;
 	width: 1139px;
 	background-color: rgba(38, 39, 50, 0.85);
-	padding: 63px 0 43px 0;
+	padding: 64px 0 43px 0;
 	background-image: url('../img/lines.png');
 	background-repeat: no-repeat;
   background-position-y:100%;
