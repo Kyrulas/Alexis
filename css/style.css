@@ -1110,7 +1110,7 @@
 }
 #blog{
 	text-align: center;
-	padding: 126px 0 133px 0;
+	padding: 126px 0 150px 0;
 	box-sizing: border-box;
 	background-image: url(../img/09.png);
 	background-repeat: no-repeat;
@@ -1245,3 +1245,198 @@
 .blog3 h3, .blog3 a{
 	color: #feb960;
 }
+
+
+/*SUBSCRIBE BLOCK*/
+#subscribe{
+	padding: 149px 0 ;
+	text-align: center;
+	font-family: "Poppins";
+}
+#subscribe h2{
+	font-size: 30px;
+	margin-bottom: 48px;
+}
+.email_sub{
+	position: relative;
+	width: 480px;
+  margin: 0 auto;
+}
+#subscribe input{
+	width: 480px;
+	height: 50px;
+	border-radius: 25px;
+	border: 2px solid #efefef;
+	background-color: #f7f7f7;
+	font-size: 16px;
+	box-sizing: border-box;
+  padding-left: 26px;
+  font-family: "Poppins";
+}
+#subscribe button{
+	color: #ffffff;
+	font-size: 16px;
+	width: 180px;
+	height: 50px;
+	border-radius: 0 25px 25px 0;
+	background-color: #fc5f45;
+	position: absolute;
+	text-transform: uppercase;
+	top:0;
+	left: 299px;
+	border: 2px solid #fc5f45;
+}
+#subscribe button:hover{
+	background-color: #ffffff;
+	color:#fc5f45;
+}
+
+/*GET IN TOUCH*/
+footer{
+	background-image: url('../img/footer.png');
+	width: 1920px;
+	height: 1278px;
+}
+#touch{
+	text-align: center;
+	padding: 126px 0 150px 0;
+	box-sizing: border-box;
+	background-image: url('../img/10.png');
+	background-repeat: no-repeat;
+	background-position-y: 11px;
+	background-position-x: center;
+}
+#touch h1{
+	font-size: 50px;
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 700;
+	color: #313131;
+  line-height: 1.8;
+}
+#touch p{
+	font-size: 18px;
+	font-family: "Poppins";
+	color: #616161;
+	margin-top: 12px;
+}
+.touch_form{
+	width: 750px;
+	margin:0 auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 78px;
+}
+.touch_form input{
+	width: 360px;
+	height: 50px;
+	border-radius: 4px;
+	border: 1px solid #efefef;
+	background-color: #ffffff;
+	text-align: center;
+	margin-bottom: 25px;
+	box-sizing: border-box;
+	font-family: "Poppins";
+  font-family: "Poppins";
+  font-size: 16px;
+  box-sizing: border-box;
+  padding-top: 4px;
+}
+textarea{
+	width: 750px;
+	height: 200px;
+	border-radius: 4px;
+	border: 1px solid #efefef;
+	background-color: #ffffff;
+	text-align: center;
+	font-family: "Poppins";
+	font-size: 16px;
+	box-sizing: border-box;
+	padding-top: 13px
+}
+#touch input[type="submit"]{
+	  font-size: 16px;
+    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    border: 2px solid #fc5f45;
+    color: #fc5f45;
+    background-color: #ffffff;
+    margin-top: 52px;
+    box-sizing: border-box;
+
+}
+#touch input[type="submit"]:hover{
+	background-color: #fc5f45;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+#footer_bl{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 1139px;
+	background-color: rgba(38, 39, 50, 0.85);
+	padding: 63px 0 43px 0;
+	background-image: url('../img/lines.png');
+	background-repeat: no-repeat;
+  background-position-y:100%;
+  background-position-x: 0;
+  background-size: contain;
+  margin-top: 148px;
+  box-sizing: border-box;
+}
+#footer_bl h4{
+	font-size: 18px;
+	font-family: "Poppins";
+	text-align: left;
+}
+#footer_bl p{
+	color: #fef4f2;
+	font-size: 16px;
+	font-family: "Poppins";
+	text-align: left;
+	margin-top: 32px;
+	line-height: 27px;
+}
+.footer_logo{
+	margin-top: 32px;
+	width: 167px;
+}
+.footer_logo img{
+	width: 138px;
+	height: 38px;
+}
+.footer_adress1{
+	width: 239px;
+	padding-left: 29px;
+  box-sizing: border-box;
+}
+.footer_adress1 h4{
+	color: #38c695;
+}
+.footer_adress2{
+	width: 203px;
+}
+.footer_adress2 h4{
+	color: #b27cf5;
+}
+.footer_follow{
+	width: 191px;
+}
+.footer_follow h4{
+	margin-bottom: 37px;
+	color: #feb960;
+}
+.footer_follow  a img{
+	margin-right: 12px;
+}
+#follow_gl img{
+	margin-right: 22px;
+}
+
