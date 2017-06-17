@@ -1,0 +1,817 @@
+@media screen and (max-width: 1200px) {
+	/*HEADER STYLE*/
+	.container{
+		width: 920px;
+		padding:0;
+	}
+	#about, #services, #video_block {
+		margin-top: 70px;
+		margin-bottom: 0px;
+	}
+	#head_block{
+		padding:0;
+	}
+	.title{
+		height: 500px;
+	}
+	#head_block h1{
+		margin-top: 50px;
+	}
+	.feature{
+		margin-top: 40px;
+	}
+
+	/*VIDEO BLOCK*/
+	.video_bg{
+		height: 300px;
+	}
+	#video_container{
+		height: 300px;
+	}
+	/*PORTFOLIO BLOCK*/
+	#portfolio {
+		padding: 140px 0 50px 0;
+	}
+	.portf_img{
+		width: 280px;
+		height: 208px;
+		background-size: cover;
+	}
+	.text{
+		width: 280px;
+		font-size: 15px;
+	}
+
+	/*TEAM BLOCK*/
+	.team_img{
+		width: 223px;
+		height: 230px;
+		background-size: cover;
+	}
+	#team{
+		padding: 147px 0 35px 0;
+	}
+	.team_left{
+		width: 600px;
+		background-size:cover;
+	}
+	.team_right{
+		padding: 30px 10px 90px 0;
+	}
+	/*STATISTIC BLOCK*/
+	#statistic{
+		height: 400px;
+	}
+	.statistic_blocks{
+		padding: 110px 0 110px 0;
+	}
+	/*WORK STEPS BLOCK*/
+	.steps_pict{
+		width: 506px;
+		height: 250px;
+		background-size: cover;
+	}
+	.steps_descp{
+		padding: 25px 0px 24px 95px;
+		width: 408px;
+	}
+	#work_steps{
+		padding: 145px 0 50px 0;
+	}
+	.work_steps_descp4{
+		bottom: 96px;
+	}
+
+	/*PRICING TABLE*/
+	.pricing_col{
+		width: 300px;
+		padding: 25px 45px 25px 45px;
+	}
+	#pricing .pricing_table p {
+		line-height: 27px;
+		margin-top: 0;
+	}
+	#pricing{
+		padding: 104px 0 50px 0;
+	}
+
+	/*TESTIMONIALS BLOCK*/
+	#testimonials_text{
+		width: 470px;
+	}
+	.testimonials_bg{
+		height: 600px;
+	}
+	#testimonials{
+		padding: 20px 0 0 0;
+	}
+	#testimonials_blocks{
+		margin-top: 65px;
+	}
+	/*SELECT US BLOCK*/
+	#select_us{
+		padding: 80px 0 50px 0;
+	}
+	.select_us1, .select_us4{
+		width: 282px;
+	}
+	.select_us2, .select_us5{
+		width: 286px;
+	}
+	.select_us3, .select_us6{
+		width: 275px;
+	}
+	#select_us_blocks{
+		padding: 0px 20px 0 20px;
+		margin-bottom: 30px;
+	}
+	/*OUR BLOG*/
+	#blog_content_left{
+		width: 455px;
+	}
+	#blog_content_right{
+		width: 450px;
+	}
+	.blog_img{
+		background-size: cover;
+		width: 455px;
+		height: 343px;
+		padding: 310px 0 0 50px;
+	}
+	#blog{
+		padding: 35px 0 30px 0;
+	}
+	#blog_content_left h2{
+		font-size: 18px;
+	}
+	.blog_t{
+		padding: 10px 20px 10px 20px;
+	}
+
+	/*SUBSCRIBE BLOCK*/
+	#subscribe{
+		padding: 70px 0;
+	}
+
+	/*GET IN TOUCH*/
+	#touch{
+		padding-top: 20px;
+	}
+	.touch_form{
+		margin-top: 20px;
+	}
+	#footer_bl{
+		width: 920px;
+		padding: 20px 0 20px 0;
+		margin-top: 20px;
+	}
+	footer{
+		height: 800px;
+		background-size: cover;
+	}
+
+}
+
+@media screen and (max-width: 960px) {
+	/*HEADER STYLE*/
+	.container{
+		width: 720px;
+	}
+	#logo_block{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	#logo_block img {
+		margin: 5px 0;
+	}
+	#logo_block nav{
+		margin-top: 20px;
+	}
+	#logo_block ul{
+		font-size: 12px;
+	}
+	#head_block h1 {
+		font-size: 38px;
+		line-height: 60px;
+	}
+	.feature p{
+		font-size: 15px;
+	}
+	.title{
+		height: 420px;
+	}
+	#head_block button{
+		width: 130px;
+		height: 35px;
+	}
+	/*ABOUT BLOCK*/
+	#about, #services, #video_block{
+		margin-top: 20px;
+	}
+	.about_img{
+		width: 340px;
+		height: 420px;
+	}
+	.about_text{
+		width: 550px;
+		padding: 10px 20px 0px 25px;
+	}
+	.about_text h1,#services h1,#portfolio h1,#team h1,#work_steps h1,#pricing h1,#testimonials h1,#select_us h1,#blog h1,#touch h1{
+		font-size: 35px;
+		margin-bottom: 0;
+	}
+	.about_text p {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	/*SERVICES BLOCK*/
+	.service_bg{
+		display: none;
+	}
+	/*PORTFOLIO BLOCK*/
+	#portfolio{
+		padding: 10px 0 20px 0;
+		background-image: none;
+	}
+	.portfolio_container{
+		margin-top: 0;
+	}
+	.portf_img{
+		width: 240px;
+		height: 168px;
+	}
+	.text{
+		width: 100%;
+		font-size: 14px;
+	}
+	/*TEAM BLOCK*/
+	#team{
+		padding: 20px 0 10px 0;
+		background-image: none;
+	}
+	.team_blocks{
+		margin-top: 0;
+	}
+	.team_img{
+		width: 180px;
+		height: 185px;
+	}
+	.team_left{
+		width: 570px;
+		padding: 30px 10px 15px 10px;
+	}
+	#team .team_about p{
+		font-size: 13px;
+		line-height: 24px;
+	}
+	.team_right{
+		padding: 10px 10px 40px 0;
+	}
+	.team_connect_logo{
+		display: none;
+	}
+
+	/*STATISTIC BLOCK*/
+	#statistic{
+		height: 300px;
+	}
+	.statistic_blocks{
+		padding: 40px 0 10px 0;
+	}
+	.stats_text{
+		font-size: 14px;
+	}
+
+	/*WORK STEPS BLOCK*/
+	#work_steps{
+		padding: 20px 0 20px 0;
+		background-image: none;
+	}
+	.steps_pict{
+		display: none;
+	}
+	.steps_descp{
+		position: static;
+		padding: 10px 0px 10px 50px;
+		width: 350px;
+	}
+	.work_steps_img{
+		flex-wrap: wrap;
+		margin-top: 0;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	/*PRICING TABLE*/
+	#pricing{
+		background-image: none;
+		padding: 20px 0 10px 0;
+	}
+	.pricing_col{
+		width: 33%;
+		padding: 25px 10px 25px 10px;
+	}
+	#pricing .pricing_table p{
+		font-size: 12px;
+	}
+	.pricing_table{
+		margin-top: 20px;
+	}
+	#pricing button{
+		width: 80%;
+	}
+	/*TESTIMONIALS BLOCK*/
+	.testimonials_bg{
+		height: 400px;
+	}
+	.testimonials_img{
+		width: 234px;
+		height: 249px;
+		background-size: cover;
+		border: 4px solid rgba(0, 0, 0, 0.2);
+	}
+	#testimonials_text{
+		width: 430px;
+		padding: 5px 0px 10px 40px;
+		margin-left: 220px;
+	}
+	#testimonials_text h3{
+		display: none;
+	}
+	#testimonials_text p{
+		font-size: 14px;
+		line-height: 20px;
+		padding-right: 30px;
+	}
+	/*SELECT US BLOCK*/
+	#select_us{
+		padding: 20px 0 20px 0;
+		background-image: none;
+	}
+	#select_us_blocks{
+		padding: 0px 20px 0 20px;
+		margin-bottom: 30px;
+		margin-top: 50px;
+	}
+	.select_us1, .select_us4,.select_us2, .select_us5,.select_us3, .select_us6{
+		width: 220px;
+	}
+	.select_us_logo h3{
+		font-size: 16px;
+		line-height: 22px;
+	}
+	#select_us_blocks p{
+		display: none;
+	}
+	.select_us_logo{
+		margin-bottom: 30px;
+	}
+	#select_us button{
+		font-size: 14px;
+		width: 125px;
+		height: 35px;
+		margin-top: 0px;
+	}
+	#select_us h2{
+		font-size: 20px;
+	}
+	/*OUR BLOG*/
+	#blog{
+		padding: 20px 0 30px 0;
+		background-image: none;
+	}
+	#our_blog_content{
+		margin-top: 0;
+	}
+	.blog_img{
+		width: 315px;
+		height: 203px;
+		padding: 182px 0 0 50px;
+		font-size: 12px;
+	}
+	.blog_text {
+		padding: 10px 20px 10px 20px;
+	}
+	#blog_content_left h2{
+		font-size: 15px;
+		line-height: 25px;
+	}
+	#our_blog_content p{
+		font-size: 12px;
+		line-height: 23px;
+		margin-top: 12px;
+	}
+	#blog_content_left{
+		width: 315px;
+	}
+	#blog_content_right{
+		width: 400px;
+	}
+	#blog_content_right h2{
+		font-size: 14px;
+	}
+	.blog_t h3{
+		margin-bottom: 15px;
+		font-size: 13px;
+	}
+	/*SUBSCRIBE BLOCK*/
+	#subscribe{
+		padding: 25px 0;
+	}
+	#subscribe h2{
+		font-size: 27px;
+	}
+	#subscribe input{
+		width: 350px;
+		height: 35px;
+	}
+	#subscribe button{
+		font-size: 15px;
+		width: 145px;
+		height: 35px;
+	}
+	/*GET IN TOUCH*/
+	#touch{
+		padding-top: 10px;
+		background-image: none;
+	}
+	.touch_form{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+	textarea{
+		width: 80%;
+		height: 120px;
+		font-size: 15px;
+	}
+	.touch_form input{
+		font-size: 15px;
+		margin-bottom: 10px;
+		width: 80%
+	}
+	#touch input[type="submit"]{
+		width: 140px;
+		height: 40px;
+		font-size: 12px;
+		margin-top: 20px;
+	}
+	#footer_bl{
+		width: 100%;
+		padding: 10px 0 10px 0;
+		margin: 0 auto;
+		margin-top: 15px;
+		background-image: none;
+	}
+	.footer_logo{
+		width: auto;
+		margin-top: 25px;
+	}
+	.footer_logo img{
+		height: 24px;
+	}
+	.footer_adress1, .footer_adress2{
+		width: 202px;
+		padding: 0 10px;
+		box-sizing: border-box;
+	}
+	#footer_bl h4{
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
+	#footer_bl p{
+		margin-top: 10px;
+		line-height: 26px;
+		font-size: 12px;
+	}
+	.footer_follow{
+		width: 185px;
+	}
+	.footer_follow a img{
+		margin-right: 7px;
+	}
+	footer{
+		height: 720px;
+	}
+}
+
+@media screen and (max-width: 740px) {
+	.about_text h1,#services h1,#portfolio h1,#team h1,#work_steps h1,#pricing h1,#testimonials h1,#select_us h1,#blog h1,#touch h1{
+		font-size: 30px;
+	}
+	#portfolio p,#team p,#work_steps p,#pricing p,#testimonials p,#select_us p,#blog p,#touch p{
+		font-size: 15px;
+		margin-top: 10px;
+	}
+	#logo_block ul{
+		display: none;
+		text-align: center;
+	}
+	.show-menu {
+		display: block;
+	}
+	#logo_block nav{
+		margin-top: 0px;
+		width: 100%;
+		position: relative;
+	}
+	#logo_block li:nth-child(3n){
+		background-color: rgba(228, 208, 208, 0.24)
+	}
+	#logo_block li:hover {
+		border-bottom: 0;
+		cursor: pointer;
+	}
+	#logo_block li{
+		padding: 15px 0;
+	}
+	#logo_block li:nth-child(2),#logo_block li:nth-child(7){
+		display: none;
+	}
+	input[type="checkbox"]:checked ~ #menu  {
+		display: block;
+		position: absolute;
+    z-index: 9;
+    top: 30px;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+	}
+	#logo_block img{
+		position: absolute;
+		left: 0;
+		z-index: 555;
+	}
+	.feature{
+		justify-content: space-around;
+	}
+	.feature_pr, .feature_time{
+		padding: 0;
+	}
+	.container{
+		width: 100%;
+	}
+	/*ABOUT BLOCK*/
+	.about_img{
+		display: none;
+	}
+	.about_text{
+		position: static;
+		width: 100%;
+		background-image: none;
+	}
+	#about, #services, #video_block{
+		margin-top: 0px;
+	}
+	/*VIDEO BLOCK*/
+	.video_bg{
+		display: none;
+	}
+	/*PORTFOLIO BLOCK*/
+	.portf_img{
+		width: 220px;
+		height: 148px
+		background-size:contain;
+	}
+	.portfolio_1,.portfolio_2,.portfolio_6{
+		display: none;
+	}
+	.text{
+		display: block;
+		padding-top: 15px;
+	}
+	.portf_img:hover:before {
+    height: 0;
+    bottom: 0;
+	}
+	/*TEAM BLOCK*/
+	.team_img{
+		width: 100%;
+		height: 270px;
+	}
+	.team1, .team2, .team3, .team4{
+		width: 48%;
+	}
+	#team h2{
+		margin-top: 5px;
+		font-size: 13px;
+	}
+	#team .team_blocks p{
+		margin: 5px 0 10px 0;
+		font-size: 12px;
+	}
+	.team_about{
+		display: none;
+	}
+	/*STATISTIC BLOCK*/
+	#statistic{
+		height: 250px;
+	}
+	.statistic_blocks{
+		padding: 30px 0 10px 0;
+	}
+	.stats_t{
+		font-size: 15px
+	}
+	.stats_text{
+		font-size: 12px;
+		width: 30px;
+		line-height: 16px;
+		margin-top: 15px;
+	}
+	/*WORK STEPS BLOCK*/
+	.steps_descp{
+		padding: 10px 0px 10px 10px;
+		width: 48%;
+		margin-bottom: 15px;
+		background-image: none;
+	}
+	#work_steps .steps_descp h2{
+		font-size: 16px;
+		margin-bottom: 15px;
+		color: #38c695;
+	}
+	#work_steps .steps_descp p{
+		font-size: 14px;
+		line-height: 23px;
+	}
+	/*TESTIMONIALS BLOCK*/
+	.testimonials_bg{
+		display: none;
+	}	
+	/*SELECT US BLOCK*/
+	.select_us1, .select_us4, .select_us2, .select_us5, .select_us3, .select_us6{
+		width: 200px;
+	}
+	.select_us_logo h3{
+		font-size: 14px;
+		line-height: 20px;
+	}
+	#select_us_blocks{
+		margin-top: 30px;
+		margin-bottom: 0;
+	}
+	#select_us h2{
+		font-size: 16px;
+	}
+	#select_us button{
+		font-size: 13px;
+		width: 110px;
+		height: 30px;
+	}
+	/*OUR BLOG*/
+	#blog{
+		padding: 10px 0 10px 0;
+	}
+	#our_blog_content{
+		align-items: center;
+		flex-direction: column;
+	}
+	#blog_content_left{
+		display: none;
+	}
+	.blog_text{
+		padding: 10px 10px 10px 20px;
+	}
+	
+	#blog_content_right{
+		width: 95%;
+	}
+	.blog_t{
+		padding: 20px;
+		margin-bottom: 15px;
+	}
+	#blog #blog_content_right p{
+		font-size: 14px;
+		margin-top: 5px;
+	}
+	/*SUBSCRIBE BLOCK*/
+	#subscribe h2{
+		font-size: 23px;
+		margin-bottom: 30px;
+	}
+	#subscribe button{
+		font-size: 12px;
+		width: 126px;
+		height: 30px;
+	}
+	#subscribe input{
+		width: 300px;
+		height: 30px;
+		font-size: 14px;
+	}
+	.email_sub{
+		width: 100%;
+	}
+	/*GET IN TOUCH*/
+	.footer_logo{
+		display: none;
+	}
+	.footer_adress1, .footer_adress2{
+		width: 165px;
+		padding: 0 5px;
+	}
+	#touch #footer_bl p{
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 480px) {
+	.about_text h1, #services h1, #portfolio h1, #team h1, #work_steps h1, #pricing h1, #testimonials h1, #select_us h1, #blog h1, #touch h1{
+		font-size: 28px;
+	}
+	#portfolio p, #team p, #work_steps p, #pricing p, #testimonials p, #select_us p, #blog p, #touch p{
+		margin-top: 3px;
+	}
+	.feature{
+		display: none;
+	}
+	.title{
+		height: 350px;
+	}
+	#head_block h1{
+		font-size: 32px;
+	}
+	.team_blocks{
+		flex-direction: column;
+    align-items: center;
+	}
+	.portfolio_1, .portfolio_2, .portfolio_6{
+		display: block;
+	}
+	.portf_img{
+		width: 80%;
+		height: 260px;
+		background-size: contain;
+	}
+	.text{
+		display: block;
+	}
+	.team1, .team2, .team3, .team4{
+		width: 90%;
+		background-image: none;
+	}
+	.team_img{
+		width: 100%;
+    height: 300px;
+    background-position: 50% 20%;
+	}
+	.pricing_col{
+		width: 100%;
+		background-image: none;
+	}
+	.steps_descp{
+		width: 100%;
+		text-align: center;
+	}
+	#pricing .pricing_table p{
+		font-size: 16px;
+	}
+	#pricing button{
+		width: 45%;
+		height: 40px;
+	}
+	#select_us_blocks{
+		padding: 0 5px;
+		justify-content: flex-end;
+	}
+	.select_us1, .select_us4, .select_us2, .select_us5, .select_us3, .select_us6{
+		width: 48%;
+	}
+	.blog_t{
+		padding: 10px 10px 10px 10px;
+		background-image: none;
+	}
+	.email_sub{
+		width: 300px;
+	}
+	#subscribe input{
+		width: 250px;
+	}
+	#subscribe button{
+		width: 110px;
+		left: 175px;
+	}
+	#footer_bl{
+		margin-top: 10px;
+	}
+	#footer_bl p{
+		line-height: 20px;
+		text-align: center;
+	}
+	.footer_adress1, .footer_adress2{
+		width: 150px;
+	}
+	#footer_bl h4{
+		text-align: center;
+	}
+	.footer_follow{
+		width: 100%;
+	}
+	#touch input[type="submit"]{
+		width: 120px;
+    height: 30px;
+    font-size: 11px;
+	}
+}
