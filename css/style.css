@@ -63,6 +63,7 @@ input[type="checkbox"] {
   text-decoration: none;
   color: #272727;
   padding-left: 21px;
+  outline: none;
 }
 
 /*HEAD BLOCK*/
